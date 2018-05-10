@@ -32,6 +32,8 @@ body {
   padding: 1em;
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
+  max-width: 1000px;
+  align-items: center;
 }
 
 /* images shared */
