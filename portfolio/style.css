@@ -29,11 +29,9 @@ header img {
 body {
   margin-right: 1em;
   margin-left: 1em;
-  padding: 1em;
+  padding: 2em;
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
-  max-width: 1000px;
-  align-items: center;
 }
 
 /* images shared */
@@ -48,6 +46,14 @@ img {
 
 h4 {
   text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 16px;
 }
 
 /* line break after header */
@@ -72,27 +78,26 @@ hr {
 
 .first_project {
   width: 100%;
-  max-width: 35%;
+  max-width: 70%;
   height: auto;
   order: 0;
 }
 
 .second_project {
   width: 100%;
-  max-width: 50%;
+  max-width: 70%;
   height: auto;
   order: 1;
 }
 
 .third_project {
   width: 100%;
-  max-width: 50%;
+  max-width: 70%;
   height: auto;
   order: 2;
 }
 
 .websites_links {
-  text-transform: lowercase;
   font-size: 10px;
   margin-left: -30px;
 }
@@ -176,7 +181,7 @@ hr {
   }
   .websites_links {
     text-transform: lowercase;
-    font-size: 14px;
+    font-size: 20px;
   }
   .contact_me {
     float: left;
@@ -194,16 +199,27 @@ hr {
     padding: 5px;
     height: auto;
     width: 100%;
-    max-width: 85%;
   }
   .main_image {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    max-width: 1000px;
   }
   h1 {
     font-size: 68px;
   }
   h2 {
     margin-left: 35px;
+    font-size: 20px;
+  }
+  h3 {
+    margin-left: 35px;
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 32px;
   }
   .websites_links {
     font-size: 10px;
