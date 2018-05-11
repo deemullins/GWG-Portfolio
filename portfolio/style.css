@@ -6,8 +6,8 @@
 
 header {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 2em;
+  margin-left: 2em;
   padding: 0.5em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -27,15 +27,14 @@ header img {
 }
 
 body {
+  margin: 0 auto;
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
   margin-right: 1em;
   margin-left: 1em;
-  padding: 2em;
-  font-family: "Montserrat", sans-serif;
-  margin: 0 auto;
 }
 
 /* images shared */
-
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -44,16 +43,16 @@ img {
   width: 100%;
 }
 
-h4 {
-  text-transform: uppercase;
+h2 {
+  font-size: 16px;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
 }
 
-h2 {
-  font-size: 16px;
+h4 {
+  text-transform: uppercase;
 }
 
 /* line break after header */
@@ -66,7 +65,6 @@ hr {
 }
 
 /* work projects */
-
 .projects {
   display: flex;
   flex-direction: column;
@@ -102,8 +100,27 @@ hr {
   margin-left: -30px;
 }
 
-/* footer info */
+/* unvisited link */
+a:link {
+  color: grey;
+}
 
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: teal;
+}
+
+/* selected link */
+a:active {
+  color: coral;
+}
+
+/* footer info */
 .contact_me {
   text-align: center;
   padding: 8px;
@@ -168,20 +185,19 @@ hr {
     font-family: "Gothic A1", sans-serif;
   }
   .first_project {
-    width: 33%;
+    width: 70%;
     margin: 1em;
   }
   .second_project {
-    width: 33%;
+    width: 70%;
     margin: 1em;
   }
   .third_project {
-    width: 33%;
+    width: 70%;
     margin: 1em;
   }
   .websites_links {
-    text-transform: lowercase;
-    font-size: 20px;
+    font-size: 14px;
   }
   .contact_me {
     float: left;
@@ -199,13 +215,10 @@ hr {
     padding: 5px;
     height: auto;
     width: 100%;
+    max-width: 1200px;
   }
   .main_image {
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 100%;
-    max-width: 1000px;
+    text-align: center;
   }
   h1 {
     font-size: 68px;
@@ -221,7 +234,8 @@ hr {
   h4 {
     font-size: 32px;
   }
-  .websites_links {
-    font-size: 10px;
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
