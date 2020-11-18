@@ -1,9 +1,1 @@
-# deemullins.github.io
-# deemullins.github.io
-# deemullins.github.io
-# deemullins.github.io
-# deemullins.github.io
-# deemullins.github.io
-# deemullins.github.io
-# deemullins.github.io
-# deemullins.github.io
+https://deemullins.github.io/GWG-Portfolio/
