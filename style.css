@@ -1,0 +1,236 @@
+/* header with flexbox */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  width: 100%;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: right;
+  font-size: 18px;
+  order: 1;
+}
+
+header img {
+  padding: 5px;
+  max-width: 25%;
+  float: left;
+  width: 100%;
+  height: auto;
+  order: 0;
+  margin-top: 25px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+/* images shared */
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: auto;
+  width: 100%;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+/* line break after header */
+hr {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 2px;
+}
+
+/* work projects */
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: "Gothic A1", sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.first_project {
+  width: 100%;
+  max-width: 70%;
+  height: auto;
+  order: 0;
+}
+
+.second_project {
+  width: 100%;
+  max-width: 70%;
+  height: auto;
+  order: 1;
+}
+
+.third_project {
+  width: 100%;
+  max-width: 70%;
+  height: auto;
+  order: 2;
+}
+
+.websites_links {
+  font-size: 10px;
+  margin-left: -30px;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: teal;
+}
+
+/* selected link */
+a:active {
+  color: coral;
+}
+
+/* footer info */
+.contact_me {
+  text-align: center;
+  padding: 8px;
+}
+
+.social_media {
+  text-align: center;
+  padding: 20px;
+}
+
+/* social media buttons */
+.fab {
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fab hover {
+  opacity: 1;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-codepen {
+  background: #666;
+  color: white;
+}
+
+/* contact me footer */
+.fa-envelope {
+  background: white;
+  color: black;
+}
+
+/* breakpoints */
+@media only screen and (max-width: 650px) {
+  h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 651px) {
+  .projects {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-family: "Gothic A1", sans-serif;
+  }
+  .first_project {
+    width: 70%;
+    margin: 1em;
+  }
+  .second_project {
+    width: 70%;
+    margin: 1em;
+  }
+  .third_project {
+    width: 70%;
+    margin: 1em;
+  }
+  .websites_links {
+    font-size: 14px;
+  }
+  .contact_me {
+    float: left;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  .social_media {
+    float: right;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .main_image {
+    text-align: center;
+  }
+  h1 {
+    font-size: 68px;
+  }
+  h2 {
+    margin-left: 35px;
+    font-size: 20px;
+  }
+  h3 {
+    margin-left: 35px;
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 32px;
+  }
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
